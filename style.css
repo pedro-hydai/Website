@@ -1,0 +1,92 @@
+body {
+    background-color: #001228;
+    color: #e9ecef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-section {
+    background-color: #001228;
+    color: #ffffff;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.35rem 0.85rem rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+}
+main {
+    padding-bottom: 3rem;
+}
+section {
+    background-color: #001a38;
+    color: #e9ecef;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: .75rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+hr {
+    margin: 3.5rem 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    opacity: 0.7;
+}
+footer {
+    background-color: #000c1e;
+    color: #ced4da;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.08);
+}
+a {
+    color: #87ceeb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #a7d9f7;
+    text-decoration: underline;
+}
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+h1 {
+    font-size: 2.8rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+p, ul, dl {
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+h1 em, h2 em, h2 i {
+    font-style: normal;
+}
+ul {
+    padding-left: 1.5rem;
+}
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+.dl-horizontal dt {
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    margin-right: 15px;
+}
+.dl-horizontal dd {
+    margin-left: 135px;
+}
